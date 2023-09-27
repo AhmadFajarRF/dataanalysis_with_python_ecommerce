@@ -1,0 +1,13 @@
+pip install kmodes
+import pandas as pd
+from kmodes.kmodes import KModes
+import numpy as np
+import matplotlib.pyplot as plt
+import plotly.express as px
+import seaborn as sns
+import statsmodels.api as sm
+
+pd.set_option('display.max_columns', None)
+
+
+(saya menggunakan google collab, jadi libary nya tinggal import :V)
